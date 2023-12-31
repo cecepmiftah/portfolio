@@ -33,14 +33,12 @@ const About = () => {
         <h1 className="font-bold text-xl">#Skills</h1>
         <div className="w-full flex justify-around lg:justify-evenly">
           <div className="text-lg border-l-2 py-2 border-slate-400 pl-2 leading-relaxed">
-            <h3 className="font-bold">I have knowlage with:</h3>
             <h3>HTML</h3>
             <h3>CSS3</h3>
             <h3>JavaScript</h3>
             <h3>ES6</h3>
           </div>
           <div className="text-lg border-l-2 py-2 border-slate-400 pl-2 leading-relaxed">
-            <h3 className="font-bold">I have knowlage with:</h3>
             <h3>React.js</h3>
             <h3>Next.js</h3>
             <h3>Restful API</h3>

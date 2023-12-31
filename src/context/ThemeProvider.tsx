@@ -9,6 +9,7 @@ export function Providers({ children }: Props) {
     <ThemeProvider
       enableSystem={true}
       attribute="class"
+      defaultTheme="light"
       disableTransitionOnChange={false}
       themes={["light", "dark"]}
     >
