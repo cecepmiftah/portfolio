@@ -49,13 +49,16 @@ const MobileNav = ({
           {links.map((link: PropsType) => (
             <div key={link.id} className="flex justify-center items-center">
               <div className="w-1/2 flex gap-3 justify-start items-start">
-                <Image
-                  src={link.icon}
-                  alt="icon"
-                  width={40}
-                  height={40}
-                  className="flex-shrink-0"
-                />
+                {currentTheme === "light" && (
+                  <Image
+                    src={link.icon}
+                    alt="icon"
+                    width={40}
+                    height={40}
+                    className="flex-shrink-0"
+                  />
+                )}
+
                 <Link
                   href={link.url}
                   onClick={() => setOpen(false)}
