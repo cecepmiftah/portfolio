@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-// import { links } from "./Navbar";
 
 type PropsType = {
   id: number;
